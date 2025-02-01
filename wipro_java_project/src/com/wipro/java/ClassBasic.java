@@ -22,6 +22,7 @@ public class ClassBasic {
 		// TODO Auto-generated method stub
 		System.out.println("we are learning java angular program");
 		System.out.println("interface");
+		System.out.println("object");
 		
 		
 
