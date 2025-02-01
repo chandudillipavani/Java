@@ -23,6 +23,7 @@ public class HelloWorld {
 		System.out.println("this is java program");
 		System.out.println("my name is pavani");
 		System.out.println("my branch is cse");
+		System.out.println("my skills are java");
 		
 
 	}
