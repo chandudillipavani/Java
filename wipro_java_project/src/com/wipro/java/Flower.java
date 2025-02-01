@@ -9,15 +9,15 @@ package com.wipro.java;
 public class Flower {
 	String flowerName;
 	String color;
-	
+	int price;
 	
 	Flower(String name,String color,int price){
 		this.flowerName=name;
 		this.color=color;
-		
+		this.price=price;
 	}
 	void display() {
-		System.out.println("Flower Name: " + flowerName+ ", Color: "+color);
+		System.out.println("Flower Name: " + flowerName+ ", Color: "+color+ ",Price:"+price);
 	}
 	public static void main(String[] args) {
 		Flower flower1 = new Flower("Rose", "Red", 50);
