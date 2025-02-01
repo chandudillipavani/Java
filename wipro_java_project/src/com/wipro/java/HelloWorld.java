@@ -22,7 +22,6 @@ public class HelloWorld {
 		// TODO Auto-generated method stub
 		System.out.println("this is java program");
 		System.out.println("my name is pavani");
-		System.out.println("my branch is cse");
 		System.out.println("my skills are java");
 		
 
