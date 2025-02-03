@@ -10,9 +10,8 @@ public class ProjectLead extends Employee {
 	public ProjectLead() {
 		// TODO Auto-generated constructor stub
 	}
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
-
 		//child object is instantiated from child constructor
 		//parent class consumes the properties and behavior of child class
 		Employee employee=new ProjectLead();
@@ -25,5 +24,7 @@ public class ProjectLead extends Employee {
 		System.out.println(employee.getSalary());
 		
 		
+		
 	}
+	
 }
