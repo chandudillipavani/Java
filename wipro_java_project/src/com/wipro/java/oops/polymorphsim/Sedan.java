@@ -3,7 +3,8 @@ package com.wipro.java.oops.polymorphsim;
 import com.wipro.java.oops.inheritance.Car;
 
 // Child class Sedan extending Car
-public class Sedan extends Car {
+public class Sedan extends Car 
+{
 	
     public String toString() {
         return "Sedan [Type=Luxury, Fuel=Petrol, Color=Metallic Blue]";
