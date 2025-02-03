@@ -3,6 +3,9 @@ package com.wipro.java.oops;
 /**
  * Employee class representing an employee's details.
  */
+/**
+ * Parent class = Employee
+ */
 
 public class Employee {
     
