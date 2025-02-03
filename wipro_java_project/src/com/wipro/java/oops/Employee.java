@@ -12,7 +12,10 @@ public class Employee {
     // Private fields 
     private int id;
     private String name;
-    private double salary; 
+    private float salary;
+    
+    private boolean isTaxApplicable;
+	public char[] setId;
  // Getter and Setter for id
 	public int getId() {
 		return id;
@@ -30,11 +33,11 @@ public class Employee {
 		this.name = name;
 	}
 	// Getter and Setter for salary
-	public double getSalary() {
+	public float getSalary() {
 		return salary;
 	}
 	// Getter and Setter for salary
-	public void setSalary(double salary) {
+	public void setSalary(float  salary) {
 		this.salary = salary;
 	}
 	public void displayEmployeeInfo() {
