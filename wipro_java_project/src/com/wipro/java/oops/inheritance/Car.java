@@ -1,4 +1,4 @@
-package com.wipro.java.oops;
+package com.wipro.java.oops.inheritance;
 
 // parent class
 public class Car 
@@ -16,6 +16,9 @@ public class Car
 	    }
 	    public void color() {
 	        System.out.println("Car color is generic.");
+	    }
+	    public String toString() {
+	        return "Car [Type=Generic, Fuel=Unknown]";
 	    }
 	
 	
