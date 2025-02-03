@@ -37,6 +37,9 @@ public class Employee {
 	public void setSalary(double salary) {
 		this.salary = salary;
 	}
+	public void displayEmployeeInfo() {
+        System.out.println("Employee ID: " + id + ", Name: " + name + ", Salary: $" + salary);
+	}
 	
 	
 }

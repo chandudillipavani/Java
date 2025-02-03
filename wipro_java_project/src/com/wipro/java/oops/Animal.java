@@ -45,6 +45,10 @@ public class Animal {
 	public void setAge(int age) {
 		this.age = 10;
 	}
+	 public String toString() {
+	        return "Animal { Name: " + name + ", Species: " + species + ", Age: " + age + " }";
+	    }
+	
 	
 
 }
