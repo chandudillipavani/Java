@@ -2,7 +2,7 @@ package com.wipro.java.collection;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MapExample 
+public class MapImplementation 
 {
 
 	
