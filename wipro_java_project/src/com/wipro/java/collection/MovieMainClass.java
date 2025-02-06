@@ -2,7 +2,7 @@ package com.wipro.java.collection;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class MainClass {
+public class MovieMainClass {
     public static void main(String[] args) {
         // Create a list of movies
         ArrayList<Movie> movies = new ArrayList<>();
