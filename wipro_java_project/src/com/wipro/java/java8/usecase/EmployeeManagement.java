@@ -16,6 +16,7 @@ public class EmployeeManagement {
 22))); 
  
         while (true) { 
+        	//display menu options
             System.out.println("\n------ Employee Management System ------"); 
             System.out.println("1. Add Employee"); 
             System.out.println("2. Remove Employee"); 
@@ -31,6 +32,7 @@ public class EmployeeManagement {
  
             switch (choice) { 
                 case 1: 
+                	//adding  anew employeee
                     System.out.print("Enter ID: "); 
                     int id = scanner.nextInt(); 
                     scanner.nextLine(); // Consume newline 
@@ -44,12 +46,14 @@ public class EmployeeManagement {
                     break; 
  
                 case 2: 
+                	//removing an employee by id
                     System.out.print("Enter Employee ID to Remove: "); 
                     int removeId = scanner.nextInt(); 
                     service.removeEmployee(removeId); 
                     break; 
  
                 case 3: 
+                	//Searching for an employee by id
                     System.out.print("Enter Employee ID to Search: "); 
                     int searchId = scanner.nextInt(); 
                     Optional<Employee> emp = service.searchEmployee(searchId); 
@@ -57,6 +61,7 @@ public class EmployeeManagement {
                     break; 
  
                 case 4: 
+                	//updating all employees salary
                     System.out.print("Enter Employee ID to Update Salary: "); 
                     int updateId = scanner.nextInt(); 
                     System.out.print("Enter New Salary: "); 
@@ -65,10 +70,12 @@ public class EmployeeManagement {
                     break; 
  
                 case 5: 
+                	//displaying all the employees
                     service.displayEmployees(); 
                     break; 
  
                 case 6: 
+                	// Filtering employees by department
                     System.out.print("Enter Department: "); 
                     scanner.nextLine(); 
                     String department = scanner.nextLine(); 
@@ -76,21 +83,26 @@ public class EmployeeManagement {
                     filtered.forEach(System.out::println); 
                     break; 
  
-                case 7: 
+                case 7:
+                	// Sorting employees by name
                     List<Employee> sorted = service.sortByName(); 
                     sorted.forEach(System.out::println); 
                     break; 
  
                 case 8: 
+                	// Calculating and displaying average salary
                     System.out.println("Average Salary: " + service.getAverageSalary()); 
                     break; 
  
                 case 9: 
+                	// Exiting the application
                     System.out.println("Exiting..."); 
                     scanner.close(); 
                     return; 
  
-                default: 
+                    
+                default:
+                	 // Handling invalid choices
                     System.out.println("Invalid choice! Try again."); 
             } 
         } 

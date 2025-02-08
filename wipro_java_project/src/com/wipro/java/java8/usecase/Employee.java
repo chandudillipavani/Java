@@ -2,12 +2,15 @@ package com.wipro.java.java8.usecase;
 
 import java.time.LocalDate; 
 
+// Employee class representing an employee entity
 public class Employee { 
+	// Private fields for employee details
     private int id; 
     private String name; 
     private String department; 
     private double salary; 
-    private LocalDate joiningDate; 
+    private LocalDate joiningDate;
+    // Constructor to initialize employee details
  
     public Employee(int id, String name, String department, double salary, LocalDate joiningDate) 
 { 
@@ -28,7 +31,7 @@ public class Employee {
     public void setName(String name) { this.name = name; } 
     public void setDepartment(String department) { this.department = department; } 
     public void setSalary(double salary) { this.salary = salary; } 
- 
+ // Overriding toString method to return employee details as a string
     @Override 
     public String toString() { 
         return "Employee { " + "ID=" + id + ", Name='" + name + '\'' +  
