@@ -10,9 +10,9 @@ public class EmployeeManagement {
         EmployeeService service = new EmployeeService(); 
         Scanner scanner = new Scanner(System.in);
         // Adding some employees for testing 
-        service.addEmployee(new Employee(1, "Alice", "IT", 50000, LocalDate.of(2020, 5, 10))); 
-        service.addEmployee(new Employee(2, "Bob", "HR", 45000, LocalDate.of(2019, 3, 15))); 
-        service.addEmployee(new Employee(3, "Charlie", "Finance", 60000, LocalDate.of(2021, 8, 
+        service.addEmployee(new Employee(1, "pavani", "IT", 50000, LocalDate.of(2020, 5, 10))); 
+        service.addEmployee(new Employee(2, "farheen", "HR", 45000, LocalDate.of(2019, 3, 15))); 
+        service.addEmployee(new Employee(3, "Devi", "Finance", 60000, LocalDate.of(2021, 8, 
 22))); 
  
         while (true) { 
